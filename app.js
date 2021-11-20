@@ -28,11 +28,11 @@ $(document).ready(() =>
     });
 
     // Show & Hide Cart
-    const $cartBtn = $('.cart-btn');
+    const $cartBtnn = $('.cart-btn');
     const $cartDetails = $('.cart');
     const $closeCart = $('.close-cart');
 
-    $($cartBtn).on('click',()=>{
+    $($cartBtnn).on('click',()=>{
       cartOverlay.classList.add('transparentBcg');
       cartDOM.classList.add('showCart');
     });
@@ -47,7 +47,7 @@ $(document).ready(() =>
       cartDOM.classList.remove('showCart');
     });
 
-    $cartBtn.on('mouseover', () => {
+    $cartBtnn.on('mouseover', () => {
       cartOverlay.classList.add('transparentBcg');
       cartDOM.classList.add('showCart');
     });
