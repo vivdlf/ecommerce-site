@@ -94,7 +94,7 @@
         </h3>
         <button class="clear-cart banner-btn">Clear Cart</button>
         <div class="divider" style="height:20px;"></div>
-        <button onclick="location.href = 'checkout.php';" class="banner-btn">Checkout</button>
+        <button onclick="location.href = 'checkout.html';" class="banner-btn">Checkout</button>
       </div>
     </div>
   </div>
