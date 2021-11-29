@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
+
 :root {
-  --primaryColor: #735645;
+ 
+  --primaryColor: #733C0D;
   --mainWhite: #fff;
-  --mainBlack: #222;
+  --mainBlack: #293845;
+  --mainBlack: black;
   --mainGrey: #ececec;
   --mainSpacing: 0.1rem;
   --mainTransition: all 0.3s linear;
@@ -17,6 +20,7 @@ body {
   color: var(--mainBlack);
   background: var(--mainWhite);
   font-family: "Lato", sans-serif;
+ 
 }
 /* --------------- Navbar ---------------- */
 .navbar {
@@ -28,6 +32,11 @@ body {
   align-items: center;
   background: rgb(231, 226, 221);
   background: #D9D0C7;
+  background-color: #d0d0ce;
+  background-color: #CBB29A;
+  background-color: #BEAB9C;
+  background-color: #AE927C;
+  background-color: #F2E5D5;
   z-index: 1;
 }
 .navbar-center {
@@ -41,7 +50,17 @@ body {
 }
 .nav-icon {
   font-size: 1.5rem;
+  cursor: pointer;
 }
+/*.back-button{
+    background-color: var(--primaryColor);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 12px 3px 12px;
+    text-decoration: none;
+    border-radius: 8px;
+}*/
 .cart-btn {
   position: relative;
   cursor: pointer;
@@ -59,15 +78,23 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
-  background: url("./images/index.jpeg") center/cover no-repeat;
+  background: url("./images/image.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index:0;
+
+}
+.overlay {
+    position:absolute;
+    
 }
 .banner {
   text-align: center;
-  background: rgba(255, 255, 255, 0.8);
-  background: rgb(231, 226, 221);
+/* background: rgba(255, 255, 255, 0.8);
+  background: rgb(231, 226, 221);*/
+  
+
   display: inline-block;
   padding: 2rem;
 }
@@ -76,6 +103,7 @@ body {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 3rem;
+  color:#fff;
 }
 .banner-btn {
   padding: 1rem 3rem;
@@ -84,13 +112,31 @@ body {
   font-size: 1rem;
   background: var(--primaryColor);
   color: var(--mainBlack);
+  color: white;
   border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
 }
 .banner-btn:hover {
-  background: transparent;
-  color: var(--primaryColor);
+  background: #735645;
+  border:none;
+  outline:none;
+  box-shadow: none;
+  color: #fff;
+}
+.banner-btn:focus {
+  background: #735645;
+  border:none;
+  outline:none;
+  box-shadow: none;
+ color: #fff;
+}
+.banner-btn:active {
+  background: #735645;
+  border:none;
+  outline:none;
+  box-shadow: none;
+  color: #fff;
 }
 /* --------------- End of Hero ---------------- */
 /* --------------- Products ---------------- */
@@ -188,11 +234,11 @@ body {
   height: 100%;
   overflow: scroll;
   z-index: 3;
-  background: rgb(231, 226, 221);
+  background-color:  #F2E5D5;
   padding: 1.5rem;
   transition: var(--mainTransition);
   /*transform: translateX(100%);*/
-  transform: translateX(100%);
+  /*transform: translateX(100%);*/
 }
 .showCart {
   transform: translateX(0);
@@ -263,3 +309,33 @@ body {
 }
 
 /* --------------- End of Cart ---------------- */
+
+/* --------------- Extra CSS ------------------- */
+.icon{
+ color: #fff;
+}
+.navbar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: none none solid;
+  border-width: 0px 0px 1px;
+  border-color: #000 #000 rgba(237, 235, 235, 0);
+  background-color: transparent;
+}
+
+
+
+/*------------------------Drop Down Menu------------------------*/
