@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Fleex Logo" src="https://assets.website-files.com/614f0d68de16650e3a327379/617a9bbc92a074084e96486d_fleex_favicon-pink.png" width="100" />
+  <img alt="Fleex Logo" src="https://assets.website-files.com/614f0d68de16650e3a327379/617a9bbc92a074084e96486d_fleex_favicon-pink.png"  />
 </p>
 <h1 align="center">
   Fleex
