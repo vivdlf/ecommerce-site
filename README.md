@@ -1,7 +1,9 @@
-
-# Fleex 
-
-Fleex is an E-commerance website.
+<p align="center">
+  <img alt="Fleex Logo" src="https://github.com/vivdlf/ecommerce-site/blob/main/images/logo.png" width="100" />
+</p>
+<h1 align="center">
+  Fleex
+</h1>
 
 Built with:
 * HTML
