@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Fleex Logo" src="https://github.com/vivdlf/ecommerce-site/blob/main/images/logo.png" width="100" />
+  <img alt="Fleex Logo" src="https://assets.website-files.com/614f0d68de16650e3a327379/61505e1afcc784409915d1c7_Orange.svg" width="100" />
 </p>
 <h1 align="center">
   Fleex
